@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis 15 años</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+     <!-- CONTENEDOR PRINCIPAL -->
+<main class="invitacion">
+
+    <!-- IMAGEN COMPLETA DE LA INVITACIÓN -->
+    <img 
+        src="assets/invitacion.png"
+        alt="Invitación de Mis Quince Años"
+        class="invitacion-imagen"
+    >
+
+    <!--
+    ZONA INTERACTIVA PARA VER EL MAPA
+
+    Después cambiaremos el enlace por la ubicación real.
+    -->
+    <a 
+        href="#"
+        class="boton-mapa"
+        target="_blank"
+        aria-label="Ver ubicación en el mapa"
+    ></a>
+
+
+    <!--
+    ZONA INTERACTIVA PARA CONFIRMAR ASISTENCIA
+
+    Después cambiaremos el enlace por el número real de WhatsApp.
+    -->
+    <a 
+        href="#"
+        class="boton-confirmar"
+        target="_blank"
+        aria-label="Confirmar asistencia"
+    ></a>
+
+
+    <!--
+    AQUÍ PODREMOS AGREGAR LAS ANIMACIONES
+
+    Ejemplos:
+    - Mariposas
+    - Pétalos
+    - Destellos
+    -->
+    <div class="animaciones">
+
+        <!-- Ejemplo de futura mariposa -->
+        <!--
+        <img 
+            src="assets/mariposa.png"
+            class="mariposa mariposa-1"
+            alt=""
+        >
+        -->
+
+    </div>
+
+</main>
+
+
+<!-- MÚSICA DE FONDO -->
+<audio id="musica" loop preload="auto">
+    <source src="assets/musica.mp3 " type="audio/mpeg">
+    Tu navegador no admite audio.
+</audio>
+
+
+<!-- BOTÓN FLOTANTE PARA CONTROLAR LA MÚSICA -->
+<button 
+    id="boton-musica"
+    class="boton-musica"
+    aria-label="Activar o pausar música"
+>
+</button>
+
+
+<!-- MENSAJE QUE APARECE SI EL NAVEGADOR BLOQUEA EL AUDIO -->
+<div id="mensaje-musica" class="mensaje-musica">
+    Toca la invitación para activar la música 🎵
+</div>
+
+
+<!-- ARCHIVO JAVASCRIPT -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
