@@ -105,12 +105,8 @@ imagenInvitacion.addEventListener("click", function (e) {
 
     const rect = imagenInvitacion.getBoundingClientRect();
 
-    const xPct =
-        ((e.clientX - rect.left) / rect.width) * 100;
-
-    const yPct =
-        ((e.clientY - rect.top) / rect.height) * 100;
-
+    const xPct = ((e.clientX - rect.left) / rect.width) * 100;
+    const yPct = ((e.clientY - rect.top) / rect.height) * 100;
 
     for (const zona of zonasClicables) {
 
@@ -121,13 +117,18 @@ imagenInvitacion.addEventListener("click", function (e) {
             yPct <= zona.top + zona.height
         ) {
 
-            window.open(zona.url, "_blank");
+            const enlace = document.createElement("a");
+
+            enlace.href = zona.url;
+            enlace.target = "_blank";
+            enlace.rel = "noopener noreferrer";
+
+            document.body.appendChild(enlace);
+            enlace.click();
+            enlace.remove();
 
             return;
         }
-
     }
 
-    // Si tocas fuera de los botones,
-    // no pasa nada.
 });
