@@ -94,7 +94,7 @@ body {
    BOTÓN DE MÚSICA
    ========================================= */
 
-.boton-musica {
+/*.boton-musica {
     position: fixed;
 
     right: 20px;
@@ -119,7 +119,7 @@ body {
     transition:
         transform 0.2s ease,
         box-shadow 0.2s ease;
-}
+}*/
 
 .boton-musica:hover {
     transform: scale(1.08);
