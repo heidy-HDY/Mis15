@@ -88,7 +88,7 @@ const zonasClicables = [
         left: 36.4,
         width: 27.1,
         height: 1.9,
-        url: "https://share.google/KlVnkWu9qmANBQm8F"
+        url: "https://maps.app.goo.gl/RxhTFU9EkgkWLBkCA"
     },
     {
         nombre: "confirmar",
