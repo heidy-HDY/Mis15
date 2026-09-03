@@ -132,3 +132,21 @@ imagenInvitacion.addEventListener("click", function (e) {
     }
 
 });
+
+/* =========================================
+   SOBRE DE BIENVENIDA
+   ========================================= */
+
+const sobre = document.getElementById("sobre");
+const invitacionCard = document.querySelector(".invitacion");
+
+sobre.addEventListener("click", function () {
+
+    sobre.classList.add("abrir");
+
+    setTimeout(() => {
+        sobre.style.display = "none";
+        invitacionCard.classList.add("mostrar");
+    }, 800);
+
+});
