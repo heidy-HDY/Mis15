@@ -84,18 +84,18 @@ const imagenInvitacion = document.querySelector(".invitacion-imagen");
 const zonasClicables = [
     {
         nombre: "ubicacion",
-        top: 87.6,
-        left: 36.4,
-        width: 27.1,
-        height: 1.9,
+        top: 84.2,
+        left: 39,
+        width: 22,
+        height: 3.6,
         url: "https://maps.app.goo.gl/RxhTFU9EkgkWLBkCA"
     },
     {
         nombre: "confirmar",
-        top: 93.3,
-        left: 36.4,
-        width: 28.8,
-        height: 2,
+        top: 90.5,
+        left: 39,
+        width: 22,
+        height: 3.8,
         url: "https://w.app/13l6iv"
     }
 ];
