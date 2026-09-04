@@ -96,7 +96,7 @@ const zonasClicables = [
         left: 39,
         width: 22,
         height: 3.8,
-        url: "https://w.app/13l6iv"
+        url: "https://w.app/3ktlop"
     }
 ];
 
